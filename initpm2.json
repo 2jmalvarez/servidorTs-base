@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "cco2:2003",
+      "script": "src/index.ts",
+      "instances": 2,
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "watch": true,
+      "max_memory_restart": "1G",
+      "ignore_watch": ["logs"],
+      "env": {
+        "PORT": 2003
+      }
+    }
+  ]
+}

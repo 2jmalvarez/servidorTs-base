@@ -1,1 +1,6 @@
-/node_modules
+node_modules
+logs/*
+
+
+# exception to the rule
+!logs/.gitkeep 
